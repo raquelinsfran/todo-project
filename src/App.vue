@@ -9,13 +9,13 @@
         </router-link>
 
         <!-- Botón de toggler para pantallas pequeñas -->
-        <button 
-          class="navbar-toggler" 
-          type="button" 
-          data-bs-toggle="collapse" 
-          data-bs-target="#navbarNav" 
-          aria-controls="navbarNav" 
-          aria-expanded="false" 
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
           aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
@@ -47,7 +47,6 @@
     <router-view />
   </div>
 </template>
-
 
 <style>
 #app {
